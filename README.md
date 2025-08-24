@@ -1,4 +1,5 @@
 # ReelTime 🎬
+https://reeltimeuyo.netlify.app/
 
 ReelTime is a simple React app that allows users to search for TV shows using the [TVMaze API](https://www.tvmaze.com/api).  
 Users can type in a show name, view matching results, and see more details about each show.
