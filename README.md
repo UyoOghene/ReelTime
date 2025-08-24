@@ -1,12 +1,52 @@
-# React + Vite
+# ReelTime 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ReelTime is a simple React app that allows users to search for TV shows using the [TVMaze API](https://www.tvmaze.com/api).  
+Users can type in a show name, view matching results, and see more details about each show.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features ✨
+- 🔍 Search for TV shows by name
+- 📄 View details such as **genres, language, status, and summary**
+- 🖼️ Display show posters
+- 🌐 Uses **TVMaze API**
+- 🎨 Styled with **Tailwind CSS**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack 🛠️
+- React (with React Router)
+- Tailwind CSS
+- TVMaze API
+
+---
+
+## Installation 🚀
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/reeltime.git
+   cd reeltime
+
+Install dependencies:
+
+npm install
+
+
+Run the development server:
+
+npm start
+
+
+Open in your browser:
+
+http://localhost:3000
+
+src/
+│── components/
+│   └── Header.js         # App header component
+│
+│── pages/
+│   ├── Fetchmovies.js    # Search & display movies
+│   └── Details.js        # Show details page
+│
+└── App.js                # Routes setup
